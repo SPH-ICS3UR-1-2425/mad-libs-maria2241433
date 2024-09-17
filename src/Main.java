@@ -16,8 +16,28 @@ public class Main {
 		System.out.println("Welcome to Mad Libs!");
 		System.out.println("What's your name?");
 		String name = in.nextLine();
-		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
+		System.out.println("Give me a noun");
+		String noun = in.nextLine();
+		System.out.println("Give me a number: ");
+		int num1 = in.nextInt();
+		in.nextLine();
+		System.out.println("Give me a second noun");
+		String noun2 = in.nextLine();
+		System.out.println(name+" spent "+num1+ " "+noun+" on her "+noun2);
 
+		
+		System.out.println("What's your name?");
+		String name1 = in.nextLine();
+		System.out.println("Give me a noun");
+		String noun1 = in.nextLine();
+		
+		
+		
+		
+		
+		
+		System.out.println(name1+ "spends too much "+noun1+" "+noun2+" vidoe games");
+	
 	}
 
 }

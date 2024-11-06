@@ -12,12 +12,23 @@ public class Main {
 		 * Make sure to include Strings, ints, and doubles!
 		 */
 		
-		Scanner in = new Scanner(System.in);
-		System.out.println("Welcome to Mad Libs!");
-		System.out.println("What's your name?");
-		String name = in.nextLine();
-		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
+		
+//		System.out.println(name+" spent "+num1+ " "+noun+" on her "+noun2);
 
+		Scanner in = new Scanner(System.in);
+		System.out.println("What's your name?");
+		String name1 = in.nextLine();
+		System.out.println("Give me a verb ending in ing");
+		String noun1 = in.nextLine();
+		System.out.println("Give me a plural noun");
+		String noun2 = in.nextLine();
+		
+		
+		
+		
+		
+		
+		System.out.println(name1+ " spends too much time "+noun1+" "+noun2); 
 	}
 
 }
